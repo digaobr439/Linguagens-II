@@ -1,0 +1,52 @@
+h1{
+    color: #110991;
+    text-align: center;
+    font-family: Cambria, serif;
+}
+h2{
+    font-family: Cambria, serif;
+    color: #6965ab;
+    text-align: center;
+    font-family: Cambria, serif;
+}
+
+h3{
+    color: #6965ab;
+    text-align: center;
+    font-family: Cambria, serif;
+}
+h4{
+    color: #6965ab;
+    text-align: center;
+    font-family: Cambria, serif;
+}
+p{
+    font-family: Arial, sans-serif;
+}
+#lista{
+    font-family: Arial, sans-serif;
+    color: #cf17b6;
+}
+#campus1{
+    font-family: Arial, sans-serif;
+    background-color: #b8b8b8;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#campus2{
+    font-family: Arial, sans-serif;
+    background-color: #707070;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+strong{
+    font-family: Cambria, serif;
+    color: #17cf17;
+}
+article{
+   margin-right: 50%;
+}
