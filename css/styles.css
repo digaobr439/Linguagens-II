@@ -1,52 +1,90 @@
+html{
+    font-size: 150%;
+}
+body{
+    margin: 0;
+    font-size: 100%;
+    background-color: rgb(190, 225, 255);
+}
 h1{
-    color: #110991;
-    text-align: center;
+    display: inline;
+    color: white;
+    background-color: #110991;
+    text-align: left;
     font-family: Cambria, serif;
 }
-h2{
+#titulo2{
+    background-color: aliceblue;
     font-family: Cambria, serif;
     color: #6965ab;
     text-align: center;
-    font-family: Cambria, serif;
-}
-
-h3{
-    color: #6965ab;
-    text-align: center;
-    font-family: Cambria, serif;
+    border: 1px solid black;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 h4{
+    font-family: Cambria, serif;
     color: #6965ab;
     text-align: center;
-    font-family: Cambria, serif;
 }
+
 p{
     font-family: Arial, sans-serif;
+}
+main{
+    background-color: #ccc;
+    padding: 0%;
+}
+main#descricao{
+    padding: 20px;
 }
 #lista{
     font-family: Arial, sans-serif;
     color: #cf17b6;
+    background-color: darkseagreen;
+    padding-left: 20%;
+    padding-right: 20%;
 }
-#campus1{
+#coordenador{
+    text-align: center;
+}
+.campus{
+    display: block;
     font-family: Arial, sans-serif;
-    background-color: #b8b8b8;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#campus1{
+    background-color: #b8b8b8;
 
 }
 #campus2{
-    font-family: Arial, sans-serif;
     background-color: #707070;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
 }
+
 strong{
     font-family: Cambria, serif;
     color: #17cf17;
+    text-align: center;
 }
-article{
-   margin-right: 50%;
+
+@media (min-width: 1200px){
+    #campus1, #campus2{
+        padding: 0;
+        display: inline-block;
+        width: 24%;
+        margin: 0;
+
+    }
+    main{
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
 }
